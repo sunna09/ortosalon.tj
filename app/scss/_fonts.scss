@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Scada-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Scada-Regular'),
+       url('../fonts/Scada-Regular.woff') format('woff'),
+       url('../fonts/Scada-Regular.woff2') format('woff2'),;
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Scada-Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: local('Scada-Bold'),
+       url('../fonts/Scada-Bold.woff') format('woff'),
+       url('../fonts/Scada-Bold.woff2') format('woff2'),;
+  font-display: swap; 
+}

@@ -1,0 +1,23 @@
+%scada-regular {
+  font-family: 'Scada-Regular', sans-serif;
+  font-weight: 400;
+}
+
+%scada-bold {
+  font-family: 'Scada-Bold', sans-serif;
+  font-weight: 700;
+}
+
+%bgafter {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+%checkbox-hidden {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  position: absolute;
+}

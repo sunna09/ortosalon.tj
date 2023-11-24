@@ -1,0 +1,75 @@
+body {
+  font-family: 'Scada-Regular', sans-serif;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #272343;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.title {
+  font-size: 32px;
+  line-height: 1.1;
+  @extend %scada-bold;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+
+
+.breadcrumbs {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 25px;
+  position: relative;
+  opacity: 0.7;
+  margin-bottom: 20px;
+
+  &::after {
+    content: '';
+    background-color: #272343;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__item {
+    padding-right: 35px;
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      background-image: url('../images/Right\ 24px.svg');
+      @extend %bgafter;
+      width: 25px;
+      height: 25px;
+      top: 50%;
+      right: 7px;
+      transform: translateY(-50%);
+    }
+    &:last-child {
+      
+      &::after {
+        display: none;
+      }
+    }
+  }
+}
+
+
+.product-page__main-title {
+  padding-top: 0px;
+}
